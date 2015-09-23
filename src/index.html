@@ -14,9 +14,19 @@
 
 	<link href="css/bootstrap.min.css" rel="stylesheet" media="all">
     <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
 
     <!-- Custom CSS -->
     <style>
+
+    h1 {
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.3999996185303px;
+    }
 
      .content{
         color:  #505050 !important;
@@ -45,6 +55,13 @@
         font-weight: bold;
      }
 
+    #aboutme{
+        font-size: 18px;
+        color:  #505050;
+        font-family: 'Titillium Web', sans-serif;
+     }
+
+
 
      .company{
         /*font-style: italic;*/
@@ -64,6 +81,12 @@
      }
 
 
+     .position{
+        font-size: 14px;
+        font-weight: bold;
+     }
+
+
      .techused{
         font-style: italic;
         color:  #909090 ;
@@ -71,10 +94,63 @@
 
      }
 
+          .software-skill {/*
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 2px #666666;
+  -moz-box-shadow: 0px 0px 2px #666666;
+  box-shadow: 0px 0px 2px #666666;
+  color: #909090;
+  font-size: 10px;
+  padding: 3px 5px 3px 5px;
+  text-decoration: none;
+    -webkit-print-color-adjust:exact;
+    -webkit-filter:opacity(1);
+    */
+  font-weight: normal;
+  display: inline-block;
+  margin: 3px 0px;
+  padding: 2px 6px;
+  border: 1px solid #909090;
+  border-radius: .5em;
+  color: #272626;
+  box-shadow: 0 0 2px #909090;
+  cursor: default;
+    font-size: 13px;
+}
+li
+{
+    font-size:15px;
+}
+.software-skill:hover {
+  text-decoration: none;
+}
+
      .contact{
         text-align:right;
      }
 
+.border{
+     border: 2px solid;
+     padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size:18px;
+}
+}
+
+
+
+.name-top{
+     margin-top: 20px;
+     margin-bottom:10;
+}
     @media print {
 	    a,
 	    a:link:after,
@@ -84,6 +160,12 @@
 	    }
 	}
 
+
+.padding{
+  
+    padding-top: 5px;
+
+}
 /*    @media print {
          .container {
          width: auto;
@@ -104,69 +186,233 @@
 
 <body>
     <!-- Page Content -->
+
+
+
+<!--     <div class="container content">
+
+    <div class="name-top"><h1> SPURRYA JAGGI</h1> </div>
+
+        <div class="border">
+
+       <p>
+       Dear Recruiter, <br><br>
+
+After intense passion , interest and hunger to gain knowledge in the field of Embedded Systems, I decided to apply for the position Pebble Embedded Developer for the coop term Spring 2015. <br><br>
+
+As a user of the Pebble watch, I would love an opportunity to work and build upon the smart watch. <br><br>
+
+In Mechatronics Engineering, I am currently enrolled in a course MTE 262 where we are learning about programming microprocessors , learning about sensor and their related technology , PLC and its programming , programming AVR and a lot more. I believe my knowledge gained from this course will help me qualify the job better.<br><br>
+
+At Hack the North, I created an application <a href="http://challengepost.com/software/pebilepsy"> Pebilepsy </a> which was awarded as the best pebble hack. Pebilepsy is an nocturnal epilepsy tracker and prevention software.  I learned a lot about the Pebble since then and often do small projects to continuously learn more.  
+<br><br> 
+ I also enjoy working with my Ardunio during my spare time. I have successfully made a temperature sensor and converted my Ardunio into a keyboard by changing the firmware using Atmel’s FLIP which was later used to control some keyboard keys. I performed this project to have a better understanding on how to override firmware.<br><br>
+
+
+I know if given a chance, I can provide positive change to your company!
+<br><br><br>
+
+Thanks<br>
+Spurrya Jaggi<br>
+
+
+       </p>
+
+
+        </div>
+
+    </div>
+ -->
+
     <div class="container content">
 
         <div class="row">
             <div class="col-sm-7 col-xs-7">
 
                <h1> SPURRYA JAGGI </h1>
-               2A Mechatronics Engineer
+               <p> Aspiring Engineer | Keen learner | Passionate Programmer </p>
+  
             </div>
 
             <div class="col-sm-5 col-xs-5 heading contact" >
-
-                Website :<a href="http://www.spurrya.hostoi.com" >spurrya.hostoi.com </a>
+                <i class="fa fa-envelope"></i> Email : <a href="mailto:s4jaggi@uwaterloo.ca"> s4jaggi@uwaterloo.ca </a>
                 <br>
-                GitHub :<a href="https://github.com/Spurrya" >github.com/spurrya</a>
+                <i class="fa fa-chevron-circle-right"></i> Website :<a href="http://www.spurrya.hostoi.com" >spurrya.hostoi.com </a>
                 <br>
-                LinkedIn : <a href="https://ca.linkedin.com/pub/spurrya-jaggi/81/b71/284">linkedin.com/spurrya</a>
+<!--                 <i class="fa fa-github-square"></i> GitHub :<a href="https://github.com/Spurrya" >github.com/spurrya</a>
+                <br> -->
+               <i class="fa fa-linkedin-square"></i> LinkedIn : <a href="https://ca.linkedin.com/pub/spurrya-jaggi/81/b71/284">linkedin.com/spurrya</a>
             </div>
         </div>
-        <hr>
+        <br>
         <div class="row">
 
             <div class="col-sm-3 col-xs-3"> 
 
+
+            <!--    <div class="heading heading2"> <i class="fa fa-user"></i>ABOUT ME </div>
+             
+                <div class="skills" id="aboutme">
+                    Hi, I am an aspiring engineer. I love to write code. I am fascinated by robots and integration of hardware and software.
+                </div>
+                <hr> -->
+
                 <div class="heading heading2">  <i class="fa fa-wrench "></i> SKILL SET </div>
-                <hr>
+              
+              
                 <div class="skills">
-                    PROGRAMMING
+
+                     <div class="position padding">
+                         Programming
+                    </div>  
                     <ul>
-                        <li> Java </li>
+                        <li> Java   </li>
+                        <li> C# </li>
                         <li> C++ </li>
                         <li> C </li>
-                        <li> RobotC </li>
+                        <li> Python </li>
+
                     </ul>
 
-                    <br>
+<!--                     C# <br>
+                    Java <br>
+                    C++ <br>
+                    C <br>
+                    Python  -->
 
-                    WEB DEVELOPMENT
+
+<!--                         <btn class="software-skill"> C# </btn>&nbsp;
+                        <btn class="software-skill"> Java </btn>&nbsp;
+                        <btn class="software-skill"> C++ </btn><br>
+                        <btn class="software-skill"> C </btn>&nbsp;
+                        <btn class="software-skill"> Python </btn>&nbsp; -->
+      
+
+                     <div class="position padding">
+                          Web Development
+                    </div>       
+                        <!-- <span style="font-size:12px">GENERAL</span><br> -->
+                        
+<!--                         <div>
+                            <btn class="software-skill">Angular</btn>&nbsp;
+                            <btn class="software-skill"> jQuery</btn>&nbsp;
+                            <btn class="software-skill"> Bootstrap </btn>&nbsp;
+                            <btn class="software-skill"> Node </btn>&nbsp;
+                        </div> -->
+
+<!--                         Angular <br>
+                        jQuery <br>
+                        Bootstrap <br>
+                        Node.js -->
+
+                        <ul>
+                            <li>Angular</li>
+                            <li>Node.js</li>
+                            <li> Bootstrap</li>
+                            <li>jQuery</li>
+
+                        </ul>
+                    
+                     <div class="position padding">
+                        Database
+                    </div>       
+                    
 
                     <ul>
-                        <li> JavaScript</li>
-                        <li> HTML/CSS </li>
-                        <li> PHP </li>
+                    <li> SQL</li>
+                    <li> MongoDb </li>
                     </ul>
+<!--                         <btn class="software-skill"> SQL</btn>&nbsp;
+                        <btn class="software-skill"> MongoDb </btn>&nbsp; -->
 
-                    <br>
+<!--                         SQL <br>
+                        MongoDb  -->
+                    
+                     <div class="position padding">
+                        Other
+                    </div>       
+                   
 
-                    DATABASE
+                   <ul>
+                   <li> PLC and FPGA</li>
+                   <li> Powershell </li>
+                   <li> MATHLAB </li>
+                   </ul>
 
+<!--                    </ul>
+                    <btn class="software-skill">PLC</btn>
+                    <btn class="software-skill">Powershell </btn>
+                    <btn class="software-skill">MATHLAB </btn>
+                    <btn class="software-skill"> FPGA </btn> -->
+
+<!--                     PLC <br>
+                    Powershell <br>
+                    MATHLAB <br>
+                    FPGA -->
+                     <div class="position padding">
+                        DEVELOPING SKILLS
+                     </div>       
                     <ul>
-                        <li> SQL</li>
-                    </ul>
+                    <li> Embedded Systems </li>
+                    <li> Machine Learning </li>
+                    <li> Data Analysis </li>
+                    <li>Software Architecture </li>
+                    </ul> 
+
+<!--                     Machine Learning <br>
+                    Software Architecture <br>
+                    Data Analysis <br>
+                    Embedded Systems -->
+
+                    
+<!--                        <btn class="software-skill"> Machine Learning</btn>&nbsp;
+                        <btn class="software-skill"> Software Architecture </btn>&nbsp;
+                        <btn class="software-skill"> Data Analysis </btn>&nbsp; 
+                        <btn class="software-skill"> Embedded Systems </btn>&nbsp;  -->
+
+                 
                 </div>
 
                 <hr>
-                <div class="heading heading2">  <i class="fa fa-book "></i> EDUCATION </div>
-                <hr>
+             
+               
+                <div class="heading heading2">  <i class="fa fa-book "></i>COURSES </div>
+             
                 <div class="skills">
-                    Univeristy of Waterloo , Mechatronics Engineering 2018
+                   
+                        <div><a href="http://www.ucalendar.uwaterloo.ca/1415/COURSE/course-MATH.html#MATH115"> Linear Algebra</a> </div>
+                        <div><a href="http://www.ucalendar.uwaterloo.ca/1415/COURSE/course-MTE.html#MTE140">Data and Algorithms</a></div>
+                        <div> <a href="http://www.ucalendar.uwaterloo.ca/1415/COURSE/course-MTE.html#MTE262">Introduction to Microprocessors and Digital Logic</a></div>
+                        <div> <a href="http://www.ucalendar.uwaterloo.ca/1415/COURSE/course-GENE.html#GENE121">Digital Computation</a> </div>
+                        <div><a href="http://www.ucalendar.uwaterloo.ca/1415/COURSE/course-MTE.html#MTE120"> Circuits </a> </div>
+                   
                 </div>
+
+             
+
+
+               
             </div>
             <div class="col-sm-9 col-xs-9">
                 <div class="heading heading2"> <i class="fa fa-briefcase"></i>  WORK EXPERIENCE </div>
 
+                <div class="row ">
+
+                    <div class="position col-sm-8 col-xs-8 job-title" >Software Developer</div> 
+                    <div class="company col-sm-4 col-xs-4"><img src="https://upload.wikimedia.org/wikipedia/en/9/93/DBRS_Corporate_Logo.jpg" style="height:16px;width:16px;"> DBRS</div>
+
+                    <div class="col-sm-12 col-xs-12 greybackground">
+                        <ul>
+                            <li>Worked with Entity Framework to develop full-stack features for web application directly used by the analyst.</li>
+                            <li>Developed Microsoft Excel plug-in to enable analyst to export their data.</li>
+                            <li>Scripting to migrate and validate data from Oracle to Microsoft SQL</li>
+                           
+                        </ul>
+
+                        <div class="techused">Tech used : C# , MongoDb, Microsoft SQL , Anugular, Powershell , Excel DNA</div>
+                    </div>
+                </div>
+                <br>
                 <div class="row ">
 
                     <div class="position col-sm-8 col-xs-8 job-title" >Software and Web Developer</div> 
@@ -174,38 +420,39 @@
 
                     <div class="col-sm-12 col-xs-12 greybackground">
                         <ul>
-                            <li>Developed a GUI based test framework to manage all current and future webpages.</li>
-                            <li>Designed a mobile-friendly website for customer account management.</li>
-                            <li> Develop the full stack implementation of a  web app to keep a track of the packages sent out to the customers. </li>
+                            <li>Developed a GUI based test framework that manage all webpages.</li>
+                            <li>Full stack implementation of a  web app to keep a track of the packages sent out to the customers. </li>
+                            <li>Implementing unit test cases and front-end development of web based application used by the customers </li>
                            
                         </ul>
 
-                        <div class="techused">Technologies used : Java , JavaFX , SQL , JDBC , Selenium , JavaScript , jQuery , PHP </div>
+                        <div class="techused">Tech used : Java , JavaFX , SQL , JDBC , Selenium , JavaScript , jQuery , PHP , Chai, Mocha </div>
                     </div>
                 </div>
                 <br>
+            
                 <div class="row ">
 
-                    <div class="position col-sm-8 col-xs-8 job-title" >Infrastruture Security Analyst</div> 
+                    <div class="position col-sm-8 col-xs-8 job-title" > Infrastruture Security Analyst</div> 
                     <div class="company col-sm-4 col-xs-4"><img src="http://upload.wikimedia.org/wikipedia/en/5/53/Maple_Leaf_Foods.svg" style="height:20px;width:20px;"> Maple Leaf Foods</div>
 
                     <div class="col-sm-12 col-xs-12 greybackground">
                         <ul>
-                            <li> Developed a web-crawler to reduce the time and effort for acquiring the data.</li>
-                            <li>Developed and presented weekly and monthly key performance indicator for the security systems</li>
+                            <li> Programmed a web-crawler to reduce the time for acquiring the data</li>
+                            <li> Got exposed to several security concepts and technologies. </li>
                         </ul>
 
-                         <div class="techused"> Technologies used : Microsoft's SCCM, Cisco's IronPort , FireEye and ePo.</div>
+                         <div class="techused"> Tech : Java , Selenium , FireEye, IronPort </div>
                     </div>
                 </div>
-                <hr>
+                <br>
                 <div class="heading heading2"> <i class="fa fa-code"></i> PROJECTS</div>
 
               
                 <div class="row ">
 
                     <div class="position col-sm-8 col-xs-8 job-title" >Pebilepsy</div> 
-                    <div class="company col-sm-4 col-xs-4"><img src="http://hackthenorth.com/img/logo.png" style="height:15px;width:15px;"> Hack the North</div>
+                    <div class="company col-sm-4 col-xs-4"><img src="http://hackthenorth.com/2014/img/logo.png" style="height:15px;width:15px;"> Hack the North</div>
                     <div class="col-sm-12 col-xs-12 greybackground">
 
                         <ul>
@@ -213,64 +460,89 @@
                                 Won top pebble award at Canada's largest Hackathon by developing a Nocturnal epilepsy tracker and prevention pebble application.
                             </li>
                             <li>
-                                Worked as a pair programmer on the Pebble and Android Platforms to capture, store and send information to a server database for further data analytics
+                                Captured, stored and proccessed information and analysized it for developing accuracy.
                             </li>
                         </ul>
                         
                         <div class="featured">Featured On : <a href="https://news.ycombinator.com/item?id=8372583">Hacker News</a>, <a href="http://challengepost.com/software/pebilepsy"> Challenge Post</a> , <a href="http://www.medgadget.com/2014/09/pebilepsy-uses-fitness-tracker-to-monitor-night-time-seizures.html" > Med Gadgets </a></div>
-                        <div class="techused">Technologies used : Android Development, Pebble API </div>
                     </div>
                 </div>
-                <br>
+           		<br>
                 <div class="row">
 
-                    <div class="position col-sm-8 col-xs-8 job-title" >Game Robot</div> 
-                    <div class="company col-sm-4 col-xs-4">University of Waterloo</div>
+                    <div class="position col-sm-8 col-xs-8 job-title" >Electronics Experiments</div> 
+                    <div class="company col-sm-4 col-xs-4"></div>
                     <div class="col-sm-12 col-xs-12 greybackground">
 
                         <ul>
+                        <li> 
+                        <b>Sensor Calibration- </b>Calibrated an ultrasonic sensor to fit a curve which accurately informs the length of an object placed infront of it.
+                        </li>
+
+                           <li>
+                            <b>Fuel Cell Car- </b> Programmed a MSP430 microcontroller (in C) attached to a fuel cell car to control a fuel cell car to travel along a race track
+
+                            </li>
                             <li>
-                                Built a joystick-controlled robot which could retrive objects.
+                              <b>Diode Bridge- </b> Built a diode bridge which converted alternating current to direct current and rectified the result.
+                            </li>
+                            <li>
+                            <b>Arduino Keyboard- </b>Changed Arduino firmware to behave like a keyboard.
+                            </li>
+                            <li>
+                            <b>NXT Robot- </b> Programmed a robot in RobotC using NXT to find and retrive objects on the floor. 
                             </li>
                         </ul>
-
-                        <div class="techused"> Technologies used : RobotC , NXT Mindstorm Robot</div>
                     </div>
                 </div>
 
-
-                <br>
                 <div class="row">
 
-                    <div class="position col-sm-8 col-xs-8 job-title" >Temperature Map</div> 
+                    <div class="position col-sm-8 col-xs-8 job-title" >Web and Android Applications</div> 
                     <div class="company col-sm-4 col-xs-4"></div>
                     <div class="col-sm-12 col-xs-12 greybackground">
 
                         <ul>
                             <li>
-                               Allows the user to browse map and retrive the current time and temperature of the location the user picks. 
+                           	<b>Crib</b> - Web Application for landlords and students in large groups to help discuss and negotiate more easily. 
+                            </li>
+                            <li>
+                            <b>When is my exam?</b> Web Application that adds students upcoming exam schedule to google calendar.
+                            </li>
+                            <li>
+                            <b>FindMe-  </b> Android application that retrives information about any store on Google Map including information such as email, hours, contact information
+                            </li>
+                            <li>
+                            	<b>Temperature Map- </b> Allows the user to visually see the current temperature on world map 
                             </li>
                         </ul>
-
-                        <div class="techused"> Technologies used : Google Map API , Temperature API , jQuery , AJAX</div>
                     </div>
                 </div>
-
                 <br>
-                <div class="row">
+                <div class="heading heading2"> <i class="fa fa-code"> </i>COMPETITIONS</div>
 
-                    <div class="position col-sm-8 col-xs-8 job-title" >Exam Schedular</div> 
+                <div class="row">
+                	<div class="position col-sm-8 col-xs-8 job-title" >Capture The Flag</div> 
                     <div class="company col-sm-4 col-xs-4"></div>
                     <div class="col-sm-12 col-xs-12 greybackground">
-
-                        <ul>
-                            <li>
-                                Allows a UW Student to view their exam schedule and add it to google calendar.
-                            </li>
-                        </ul>
-                        <div class="techused"> Technologies used : Waterloo API , jQuery , AJAX</div>
-                    </div>
+                    <ul>
+                    	<li> Second team to complete a set of programming challenges. These challenges improved my skills in:
+                    		<ul>
+                    			<li>Finding security vulnerabilities</li>
+                    			<li>Cracking hashed passwords </li>
+                    			<li>Network Analysis </li>
+                    		</ul>
+                    	</li>
+                    </ul>
                 </div>
+
+
+
+
+
+
+
+
              </div>
 
         </div>
@@ -288,3 +560,5 @@
 </body>
 
 </html>
+
+
