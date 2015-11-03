@@ -52,9 +52,6 @@ h5{
   font-family: Raleway;
 }
 
-.heading2{
-  font-size: 18px;
-}
 
 
 
@@ -66,11 +63,13 @@ h5{
 
 
 .company{
-/*  text-align:right;
-*/}
+  font-size: 15px;
+font-weight: bold;
+}
 
 .heading{
   -webkit-print-color-adjust:exact;
+
 }
 
 .job-title{
@@ -79,10 +78,12 @@ h5{
 
 
 .position{
-  font-size: 14px;
-  font-weight: bold;
+  font-size: 12.5px;
 }
-
+.location,.date{
+  font-style: italic;
+  font-size: 11px;
+}
 
 .techused{
   font-style: italic;
@@ -95,6 +96,12 @@ h5{
 li
 {
     font-size:15px;
+}
+.details {
+  padding-top: 0.3em;
+  font-size: 14px;
+  line-height: 1.2em;
+  padding-bottom: 0.6em;
 }
 
 
@@ -120,7 +127,7 @@ li
 
 
 .padding{
-  
+
     padding-top: 5px;
 }
 
@@ -165,91 +172,103 @@ hr{
         </div>
         <hr>
         <div class="row">
-            <div class="col-sm-3 col-xs-3"> 
+            <div class="col-sm-3 col-xs-3">
             <div class="heading heading2" >SKILLS</div>
-            <div class="skills">    
+            <div class="skills">
               <p><h5><b>General:</b></h5> Java, C#, C++, C, Python, Javascript, MATLAB</p>
               <p><h5><b>Front-end:</b></h5> Angular, Bootstrap, jQuery, Underscore</p>
               <p><h5><b>Back-end:</b></h5> SQL, MongoDB, Node.js, Tomcat</p>
               <p><h5><b>Tools:</b></h5> Git, SVN, RabbitMQ, LINQ, Powershell </p>
               <p><h5><b>Testing:</b></h5> Chai, Mocha, Selenium</p>
               <p><h5><b>Embedded:</b></h5>PLC, FPGA, Keil, Arduino</p>
-             <p><h5><b>Developing:</b></h5>Embedded Systems, Data Analysis, Software Architecture</p>      
+             <p><h5><b>Developing:</b></h5>Embedded Systems, Data Analysis, Software Architecture</p>
             </div>
             <hr>
             <div class="heading heading2">LEADERSHIP</div><hr>
-            <div class="skills">      
-            <p><h5><b>Alumni-Student Networking Director</b></h5>Was responsible for organizing an event where alumni and students can interact with each other. Increased the popularity of the event by 250%.</p> 
-            <p><h5><b>Residence Ambassador</b></h5>Encouraged potential Waterloo students to live in residences.</p>                          
+            <div class="skills">
+            <p><h5><b>Alumni-Student Networking Director</b></h5>Was responsible for organizing an event where alumni and students can interact with each other. Increased the popularity of the event by 250%.</p>
+            <p><h5><b>Residence Ambassador</b></h5>Encouraged potential Waterloo students to live in residences.</p>
             </div>
             <hr>
             <div class="heading heading2">COMPETITIONS</div><hr>
             <div class="skills">
-                    
+
             <p><h5><b>Capture The Flag 1 &amp; 2</b></h5><h6>Hack The North 2015</h6>Completed a series of programming challenges using Python. Placed among top five contestants.</p>
-                                       
+
             </div>
-               
+
           </div>
             <div class="col-sm-9 col-xs-9">
-                <div class="heading heading2" >WORK EXPERIENCE </div>
+                <div class="heading heading2" style="padding-bottom:3px;">WORK EXPERIENCE </div>
                 <div class="row ">
+                    <div class="col-xs-3">
+                      <span class="company">DBRS</span> <br>
+                      <span class="position">Software Engineer </span>
+                      <span class="techused">Toronto, ON</span><br>
 
-                    <div class="position col-sm-8 col-xs-8" ><h5><b>Software Developer</b></h5></div> 
-                    <div class="company col-sm-4 col-xs-4" style="text-align:right;"><img src="https://upload.wikimedia.org/wikipedia/en/9/93/DBRS_Corporate_Logo.jpg" style="height:16px;width:16px;"> DBRS</div>
-                    <div class="col-sm-12 col-xs-12 greybackground">
-                        <ul>
-                            <li>Enhanced analyst productivity by implementing full-stack features on an internal web app using  
-                              MVC, Angular and Entity Framework.</li>
-                            <li>Combined custom Excel plug-ins using NInject, enabling analysts to directly push spreadsheets to a production database.</li>
-                            <li>Verified and migrated databases from Oracle to SQL Server using C# scripts and, re-mapped over 2000 mismatched entries.</li>
-                           
-                        </ul>
+                      <span class="techused">Spring 2015</span>
+                       </div>
+                    <div class="col-sm-offset-3 col-sm-9 col-xs-9 greybackground">
+                        <div class ="details">
+                           Implemented full-stack features on internal web apps and Excel plugins using
+                              C#, Angular, Entity Framework and nInject, saving over 200 hrs/month in analyst time.
+                        </div>
 
-                        <div class="techused">Tech: C#, MongoDb, Microsoft SQL, Anugular, Powershell, Excel DNA, LINQ</div>
+                        <div class="techused">Tech: C#, MongoDb, SQL Server, Angular, Powershell, LINQ</div>
                     </div>
                 </div>
                 <br>
                 <div class="row ">
 
-                    <div class="position col-sm-8 col-xs-8" ><h5><b>Web Developer</b></h5></div> 
-                    <div class="company col-sm-4 col-xs-4" style="text-align:right;"><img src="http://mobile.knowroaming.com/icons/front_logo.png" style="height:16px;width:8px;"> KnowRoaming</div>
+                    <div class="col-xs-3" >
+                      <span class="company">Knowroaming </span><br>
+                      <span class="position">Web Developer</span> <br>
+                      <span class="location">Toronto, ON</span><br>
 
-                    <div class="col-sm-12 col-xs-12 greybackground">
-                        <ul>
-                            <li>Developed a GUI based test framework using JavaFX to manage company webpages, allowing developers to create automated test suites more quickly.</li>
-                            <li>Developed a full-stack web app to keep  track of packages mailed to clients. </li>
-                            <li>Implemented unit tests in Chai and Mocha to  debugging.</li>
-                           
-                        </ul>
-                        <div class="techused">Tech: Java, JavaFX, SQL,  JDBC, Selenium, JavaScript, Bootstrap, jQuery, PHP, Chai, Mocha </div>
+                      <span class="date">Fall 2014 </span>
+
+                      </div>
+
+                    <div class="col-sm-offset-3 col-sm-9 col-xs-9 greybackground">
+                      <div class ="details">
+                        Created a browser testing GUI using JavaFX and Selenium to quickly create automated test suites, thereby increasing end to end and unit test coverage by 80%
+                      </div>
+                        <div class="techused">Tech: SQL,  JDBC,JavaScript, Bootstrap, PHP, Chai, Mocha </div>
                     </div>
                 </div>
                 <br>
                 <div class="row ">
-                    <div class="position col-sm-8 col-xs-8" ><h5><b>Security Analyst</b></h5></div> 
-                    <div class="company col-sm-4 col-xs-4" style="text-align:right;"><img src="http://upload.wikimedia.org/wikipedia/en/5/53/Maple_Leaf_Foods.svg" style="height:20px;width:20px;"> Maple Leaf Foods</div>
+                    <div class="col-sm-3 col-xs-3" >
+                      <span class="company">Maple Leaf </span><br>
+                      <span class="position">Security Analyst </span><br>
+                      <span class="location">Toronto, ON</span><br>
 
-                    <div class="col-sm-12 col-xs-12 greybackground">
-                        <ul>
-                            <li>Aggregated security statistics using Selenium, thereby saving 10 man-hours/week.</li>
-                            <li>Exposed to several security concepts such as penetration testing.</li>
-                        </ul>
+                      <span class="date">Winter 2014 </span>
+
+                    </div>
+
+
+                    <div class="col-sm-offset-3 col-sm-9 col-xs-9 greybackground">
+                      <div class ="details">
+                            Aggregated security statistics using Selenium, thereby saving 10 hrs/week.
+                            Exposed to several security concepts such as penetration testing.
+                          </div>
 
                          <div class="techused">Tech: Java , Selenium , FireEye, IronPort </div>
                     </div>
                 </div>
+                <br>
                 <hr>
                 <div class="heading heading2">PROJECTS</div>
                 <div class="row">
 
-                    <div class="position col-sm-8 col-xs-8 job-title" ><h5><b>Hardware</b></h5></div> 
-                    <div class="company col-sm-4 col-xs-4"></div>
+                    <div class="position col-sm-8 col-xs-8 job-title" ><h5><b>Hardware</b></h5></div>
+                    <div class="position col-sm-4 col-xs-4"></div>
                     <div class="col-sm-12 col-xs-12 greybackground">
 
                         <ul>
-                        <li><strong>Pebilepsy</strong>-  Won top pebble award at Hack the North by developing a nocturnal epilepsy tracker and prevention Pebble application.<br> Featured On : <a href="https://news.ycombinator.com/item?id=8372583">Hacker News</a>, <a href="http://challengepost.com/software/pebilepsy"> Challenge Post</a> , <a href="http://www.medgadget.com/2014/09/pebilepsy-uses-fitness-tracker-to-monitor-night-time-seizures.html" > Med Gadgets </a></li> 
-                        <li> 
+                        <li><strong>Pebilepsy</strong>-  Won top pebble award at Hack the North by developing a nocturnal epilepsy tracker and prevention Pebble application.<br> Featured On : <a href="https://news.ycombinator.com/item?id=8372583">Hacker News</a>, <a href="http://challengepost.com/software/pebilepsy"> Challenge Post</a> , <a href="http://www.medgadget.com/2014/09/pebilepsy-uses-fitness-tracker-to-monitor-night-time-seizures.html" > Med Gadgets </a></li>
+                        <li>
                         <strong>Sensor Calibration- </strong>Calibrated an ultrasonic sensor using Python to fit a curve which accurately informs the length of an object placed infront of it.
                         </li>
 
@@ -258,7 +277,7 @@ hr{
 
                             </li>
                             <li>
-                            <strong>NXT Robot- </strong> Programmed a robot in RobotC using NXT to find and retrive objects on the floor. 
+                            <strong>NXT Robot- </strong> Programmed a robot in RobotC using NXT to find and retrive objects on the floor.
                             </li>
                         </ul>
                     </div>
@@ -266,7 +285,7 @@ hr{
 
                 <div class="row">
 
-                    <div class="position col-sm-8 col-xs-8 job-title" ><b>Web and Android</b></div> 
+                    <div class="position col-sm-8 col-xs-8 job-title" ><b>Web and Android</b></div>
                     <div class="company col-sm-4 col-xs-4"></div>
                     <div class="col-sm-12 col-xs-12 greybackground">
 
@@ -278,7 +297,7 @@ hr{
                             <strong>FindMe-  </strong> Android application that retrives information about any store on Google Map including information such as email, hours, contact information
                             </li>
                             <li>
-                            <strong>Temperature Map- </strong> Allows the user to visually see the current temperature on world map 
+                            <strong>Temperature Map- </strong> Allows the user to visually see the current temperature on world map
                             </li>
                         </ul>
                     </div>
@@ -300,5 +319,3 @@ hr{
 </body>
 
 </html>
-
-
