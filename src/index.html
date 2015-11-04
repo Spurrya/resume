@@ -33,6 +33,7 @@ h1 {
 body{
   font-family: Lato;
   font-size: 12px;
+  /*margin-top: -100px;*/
 }
 
 h6{
@@ -92,10 +93,14 @@ font-weight: bold;
   margin-top: -5px;
 }
 
+.jsection{
+  margin-top: 0.3em;
+}
 
 li
 {
-    font-size:15px;
+    font-size:13px;
+    list-style-type: circle;
 }
 .details {
   padding-top: 0.3em;
@@ -134,8 +139,8 @@ li
 
 li
 {
-  margin-left: -20px;
-  list-style-type:square
+  margin-left: -30px;
+  list-style-type:disc;
 }
 
 hr{
@@ -200,7 +205,7 @@ hr{
           </div>
             <div class="col-sm-9 col-xs-9">
                 <div class="heading heading2" style="padding-bottom:3px;">WORK EXPERIENCE </div>
-                <div class="row ">
+                <div class="row">
                     <div class="col-xs-3">
                       <span class="company">DBRS</span> <br>
                       <span class="position">Software Engineer </span>
@@ -208,17 +213,23 @@ hr{
 
                       <span class="techused">Spring 2015</span>
                        </div>
-                    <div class="col-sm-offset-3 col-sm-9 col-xs-9 greybackground">
+                    <div class="col-sm-9 col-xs-9 greybackground">
                         <div class ="details">
-                           Implemented full-stack features on internal web apps and Excel plugins using
+                          <ul> 
+                            <li>Implemented full-stack features on internal web apps and Excel plugins using
                               C#, Angular, Entity Framework and nInject, saving over 200 hrs/month in analyst time.
+                            </li>
+                            <li> 
+                              Verified and migrated databases from Oracle to SQL Server using C# scripts and,
+re-mapped 2000 mismatched entries.
+                            </li>
+                          </ul>
                         </div>
 
-                        <div class="techused">Tech: C#, MongoDb, SQL Server, Angular, Powershell, LINQ</div>
+                        <!-- <div class="techused">Tech: C#, MongoDb, SQL Server, Angular, Powershell, LINQ</div> -->
                     </div>
                 </div>
-                <br>
-                <div class="row ">
+                <div class="row jsection">
 
                     <div class="col-xs-3" >
                       <span class="company">Knowroaming </span><br>
@@ -229,15 +240,19 @@ hr{
 
                       </div>
 
-                    <div class="col-sm-offset-3 col-sm-9 col-xs-9 greybackground">
-                      <div class ="details">
-                        Created a browser testing GUI using JavaFX and Selenium to quickly create automated test suites, thereby increasing end to end and unit test coverage by 80%
+                    <div class=" col-sm-9 col-xs-9 greybackground">
+                      <div class ="details" >
+                        <ul> 
+                            <li>Created a browser testing GUI using JavaFX and Selenium to quickly create automated test suites, thereby increasing end to end and unit test coverage by 80%
+                            </li>
+                            <li>
+                              Built a web app in PHP to keep track of packages sent to clients
+                            </li>
                       </div>
-                        <div class="techused">Tech: SQL,  JDBC,JavaScript, Bootstrap, PHP, Chai, Mocha </div>
+                        <!-- <div class="techused">Tech: SQL,  JDBC,JavaScript, Bootstrap, PHP, Chai, Mocha </div> -->
                     </div>
                 </div>
-                <br>
-                <div class="row ">
+                <div class="row jsection">
                     <div class="col-sm-3 col-xs-3" >
                       <span class="company">Maple Leaf </span><br>
                       <span class="position">Security Analyst </span><br>
@@ -248,40 +263,191 @@ hr{
                     </div>
 
 
-                    <div class="col-sm-offset-3 col-sm-9 col-xs-9 greybackground">
-                      <div class ="details">
-                            Aggregated security statistics using Selenium, thereby saving 10 hrs/week.
-                            Exposed to several security concepts such as penetration testing.
+                    <div class="col-sm-9 col-xs-9 greybackground">
+                      <div class ="details" >
+                        <ul >
+                          <li style="font-size:12.5px;">
+                            Aggregated security statistics with Selenium, saving 10 hrs/week
+                          </li>
+                          <li>
+                            Learnt several security concepts such as penetration testing
+                          </li>
+                        </ul>
                           </div>
 
-                         <div class="techused">Tech: Java , Selenium , FireEye, IronPort </div>
+                       <!-- <div class="techused">Tech: Java , Selenium , FireEye, IronPort 
+                     </div> -->
                     </div>
                 </div>
                 <br>
                 <hr>
                 <div class="heading heading2">PROJECTS</div>
-                <div class="row">
 
-                    <div class="position col-sm-8 col-xs-8 job-title" ><h5><b>Hardware</b></h5></div>
-                    <div class="position col-sm-4 col-xs-4"></div>
-                    <div class="col-sm-12 col-xs-12 greybackground">
+                <div class="row jsection">
+                    <div class="col-sm-3 col-xs-3" >
+                      <span class="company">Line Follower</span><br>
+                      <span class="position">Embedded Developer </span><br>
+                      <span class="date">March 2015 </span>
+                    </div>
+                    <div class="col-sm-9 col-xs-9 greybackground">
+                      <div class ="details" >
+                        <ul >
+                          <li>
+                             Soldered electrical components on a PCB such as op-amps, resistors and transistors to design light, magnetic and rotation sensors from scratch.
+                          </li>
+                          <li>
+                              Programmed the robot in C to control it along a race track
+                          </li>                      
+                        </ul>
+                      </div>
+                    </div>                           
+                  </div>
+                  <div class="row jsection" >
+                    <div class="col-sm-3 col-xs-3" >
+                      <span class="company">Keil Projects</span><br>
+                      <span class="position">Embedded Developer </span><br>
+                    </div>
+                    <div class="col-sm-9 col-xs-9 greybackground">
+                      <div class ="details" >
+                        <ul >
+                          <li>
+                            Developed a program in C for a Keil microcontroller to allocate memory in O(1) time.
+                          </li>
+                          <li>
+                              Implemented  quick sort using threads and processes.
+                          </li>                      
+                        </ul>
+                      </div>
+                    </div>                           
+                  </div>
 
-                        <ul>
-                        <li><strong>Pebilepsy</strong>-  Won top pebble award at Hack the North by developing a nocturnal epilepsy tracker and prevention Pebble application.<br> Featured On : <a href="https://news.ycombinator.com/item?id=8372583">Hacker News</a>, <a href="http://challengepost.com/software/pebilepsy"> Challenge Post</a> , <a href="http://www.medgadget.com/2014/09/pebilepsy-uses-fitness-tracker-to-monitor-night-time-seizures.html" > Med Gadgets </a></li>
-                        <li>
-                        <strong>Sensor Calibration- </strong>Calibrated an ultrasonic sensor using Python to fit a curve which accurately informs the length of an object placed infront of it.
-                        </li>
+                   <!-- <h5><b>Hardware</b></h5><br> -->
+                    <div class="row jsection">
+                    <div class="col-sm-3 col-xs-3" >
+                      <span class="company">Pebilepsy </span><br>
+                      <span class="position">Android Developer </span><br>
+                      <span class="date">Sept 2014 </span>
+                    </div>
+                    <div class="col-sm-9 col-xs-9 greybackground">
+                      <div class ="details" >
+                        <ul >
+                          <li >
+                            Won top pebble award at Hack the North by developing a nocturnal epilepsy tracker and prevention Pebble application
+                          </li>
+                          <li>
+                            Featured On : <a href="https://news.ycombinator.com/item?id=8372583">Hacker News</a>, <a href="http://challengepost.com/software/pebilepsy"> Challenge Post</a> , <a href="http://www.medgadget.com/2014/09/pebilepsy-uses-fitness-tracker-to-monitor-night-time-seizures.html" > Med Gadgets </a>
+                          </li>                       
+                        </ul>
+                      </div>
+                    </div>
+                    </div><br>
 
-                           <li>
+                  <div class="row jsection" style="margin-top:-15px;">
+                    <div class="col-sm-3 col-xs-3" >
+                      <span class="company">Potentiometer</span><br>
+                      <span class="position"> Developer </span><br>
+                      <span class="date">March 2015 </span>
+                    </div>
+                    <div class="col-sm-9 col-xs-9 greybackground">
+                      <div class ="details" >
+                        <ul >
+                          <li >
+                             Calibrated an infrared sensor using Arduino and Python to fit a curve to predict the distance from an object.
+                          </li>
+                          <li>
+                              Used machine learning algorithms like Nearest Neighbour Search and other statistical technqiues to improve accuracy to 0.15 cm
+                          </li>                       
+                        </ul>
+                      </div>
+                    </div>                           
+                  </div>
+                  <br>
+                  <div class="row" style="margin-top:-15px;">
+                    <div class="col-sm-3 col-xs-3" >
+                      <span class="company">Crib</span><br>
+                      <span class="position">Web Developer </span><br>
+                      <span class="date">June 2015 </span>
+                    </div>
+                    <div class="col-sm-9 col-xs-9 greybackground">
+                      <div class ="details" >
+                        <ul >
+                          <li>
+                             Built a chat app with a realtime poll for large groups of students to discuss housing options, implemented using Node.js and  Socket.io
+                          </li>
+                          <li>
+                              Built entirely in 24 hours as part of AngelHack Toronto 2015
+                          </li>                      
+                        </ul>
+                      </div>
+                    </div>                           
+                  </div>
+                  
+                  <div class="row " style="margin-top:10px">
+                    <div class="col-sm-3 col-xs-3" >
+                      <span class="company">NXT Robot</span><br>
+                      <span class="position">Developer </span><br>
+                    </div>
+                    <div class="col-sm-9 col-xs-9 greybackground">
+                      <div class ="details" >
+                        <ul >
+                          <li>
+                             Programmed a LEGO robot in C++ to retrive objects on the floor
+                          </li>
+                          <li>
+                              Random point to expand on 
+                          </li>                      
+                        </ul>
+                      </div>
+                    </div>                           
+                  </div>
+                  <div class="row jsection" style="margin-top:10px">
+                    <div class="col-sm-3 col-xs-3" >
+                      <span class="company">Noise Filtering</span><br>
+                      <span class="position">Developer </span><br>
+                    </div>
+                    <div class="col-sm-9 col-xs-9 greybackground">
+                      <div class ="details" >
+                        <ul >
+                          <li>
+                            Bullshit about the SYDE 252 project using MATLAB
+                          </li>
+                          <li>
+                              Couldn't even print a fucking graph and ended up submitting late
+                          </li>                      
+                        </ul>
+                      </div>
+                    </div>                           
+                  </div>
+                 <!--  <div class="row ">
+                    <div class="col-sm-3 col-xs-3" >
+                      <span class="company"></span><br>
+                      <span class="position">Embedded Developer </span><br>
+                      <span class="date">March 2015 </span>
+                    </div>
+                    <div class="col-sm-9 col-xs-9 greybackground">
+                      <div class ="details" >
+                        <ul >
+                          <li>
+                             Soldered electrical components on a PCB such as op-amps, resistors and transistors to design light, magnetic and rotation sensors from scratch.
+                          </li>
+                          <li>
+                              Programmed a microprocessor in C to control the robot to travel along a race track
+                          </li>                      
+                        </ul>
+                      </div>
+                    </div>                           
+                  </div>
+                  <br> -->
+
+                  
+
+               <!--  <li>
                             <strong>Fuel Cell Car- </strong> Programmed a MSP430 microcontroller in C attached to a fuel cell car to control it to travel along a race track
 
                             </li>
                             <li>
                             <strong>NXT Robot- </strong> Programmed a robot in RobotC using NXT to find and retrive objects on the floor.
                             </li>
-                        </ul>
-                    </div>
-                </div>
 
                 <div class="row">
 
@@ -300,7 +466,7 @@ hr{
                             <strong>Temperature Map- </strong> Allows the user to visually see the current temperature on world map
                             </li>
                         </ul>
-                    </div>
+                    </div> -->
                 </div>
         </div>
         <!-- /.row -->
