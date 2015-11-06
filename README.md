@@ -12,4 +12,6 @@ See sample resume in resume.pdf
 The row on the left column include: Skills, Leadership, Competition and Education
 The row on the right column include: Work Experience and Projects.
 
-Credits: Abhijith Ramalingam and Spurrya Jaggi
+#Credits
+
+Abhijith Ramalingam and Spurrya Jaggi
