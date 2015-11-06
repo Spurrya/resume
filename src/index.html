@@ -53,8 +53,16 @@ h5{
   font-family: Raleway;
 }
 
+.work-exp .row{
+  height: 90px !important;
+}
+ .four-line{
+   height: 80px !important;
 
-
+ }
+ .three-line{
+   height: 50px !important;
+ }
 
 .heading2{
   font-size: 18px;
@@ -139,8 +147,8 @@ li
 
 li
 {
-  margin-left: -30px;
-  list-style-type:square;
+  margin-left: -35px;
+  list-style-type:disc;
 }
 
 hr{
@@ -184,14 +192,12 @@ hr{
         <div class="row">
             <div class="col-sm-3 col-xs-3">
             <div class="heading heading2" >SKILLS</div><hr>
-            <div class="skills">
-              <p><h5><b>General:</b></h5> Java, C#, C++, C, Python, Javascript, MATLAB</p>
-              <p><h5><b>Front-end:</b></h5> Angular, Bootstrap, jQuery, Underscore</p>
-              <p><h5><b>Back-end:</b></h5> SQL, MongoDB, Node.js, Tomcat</p>
+            <div class="skills" style="padding-bottom:2px">
+              <p><h5><b>Languages:</b></h5> Java, C#, C++, C, Python, Javascript, MATLAB</p>
+              <p><h5><b>Web:</b></h5> Angular, Bootstrap, jQuery, SQL, MongoDB, Node.js, Tomcat</p>
               <p><h5><b>Tools:</b></h5> Git, SVN, RabbitMQ, LINQ, Powershell </p>
               <p><h5><b>Testing:</b></h5> Chai, Mocha, Selenium</p>
               <p><h5><b>Embedded:</b></h5>PLC, FPGA, Keil, Arduino</p>
-             <p><h5><b>Developing:</b></h5>Embedded Systems, Data Analysis, Software Architecture</p>
             </div>
             <hr>
             <div class="heading heading2">
@@ -208,27 +214,36 @@ hr{
             <p><h5><b>Capture The Flag 1 &amp; 2</b></h5><h6>Hack The North 2015</h6>Completed a series of programming challenges using Python. Placed among top five contestants.</p>
 
             </div>
+            <hr>
+            <div class="heading heading2">
+ EDUCATION</div><hr>
+            <div class="skills">
+            <p><h5><b>University of Waterloo</b></h5> 2B Mechatronics Engineering Graduating May, 2018 </p>
+            </div>
 
           </div>
             <div class="col-sm-9 col-xs-9">
+              <div class="work-exp">
+
                 <div class="heading heading2" style="padding-bottom:3px;">
-                  WORK EXPERIENCE </div><hr>
+                  WORK EXPERIENCE
+                </div>
+                <hr>
                 <div class="row">
                     <div class="col-xs-3">
                       <span class="company">DBRS</span> <br>
                       <span class="position">Software Engineer </span>
                       <span class="techused">Toronto, ON</span><br>
-
                       <span class="techused">Spring 2015</span>
                        </div>
                     <div class="col-sm-9 col-xs-9 greybackground">
                         <div class ="details">
                           <ul>
                             <li>Implemented full-stack features on internal web app using
-                              C#, Angular and Entity Framework, saving over 200 hrs/month in analyst time.
+                              C#, Angular and Entity Framework, saving over 200 hrs/month
                             </li>
                             <li>
-                              Verified and migrated databases from Oracle to SQL Server using C# scripts and, re-mapped 2000 mismatched entries.
+                              Verified and migrated databases from Oracle to SQL Server using C# scripts and, re-mapped 2000 mismatched entries
                             </li>
                           </ul>
                         </div>
@@ -237,36 +252,31 @@ hr{
                     </div>
                 </div>
                 <div class="row jsection">
-
                     <div class="col-xs-3" >
                       <span class="company">Knowroaming </span><br>
                       <span class="position">Web Developer</span> <br>
                       <span class="location">Toronto, ON</span><br>
-
                       <span class="date">Fall 2014 </span>
-
                       </div>
-
                     <div class=" col-sm-9 col-xs-9 greybackground">
                       <div class ="details" >
                         <ul>
-                            <li>Created a browser testing GUI using JavaFX and Selenium to quickly create automated test suites, thereby increasing end to end and unit test coverage by 80%
+                            <li>
+                              Created a browser testing GUI using JavaFX and Selenium to quickly create automated test suites, thereby increasing end to end and unit test coverage by 80%
                             </li>
-                            <!-- <li>
-                              Built a web app in PHP to keep track of packages sent to clients
-                            </li> -->
+                            <li>
+                              Led the development of the mobile website using jQuery and PHP.
+                            </li>
                       </div>
-                        <!-- <div class="techused">Tech: SQL,  JDBC,JavaScript, Bootstrap, PHP, Chai, Mocha </div> -->
                     </div>
                 </div>
-                <div class="row jsection">
+                <div class="row jsection" style="padding-bottom:5px;">
                     <div class="col-sm-3 col-xs-3" >
                       <span class="company">Maple Leaf </span><br>
                       <span class="position">Security Analyst </span><br>
-                      <span class="location">Toronto, ON</span><br>
+                      <span class="location">Mississauga, ON</span><br>
 
                       <span class="date">Winter 2014 </span>
-
                     </div>
 
 
@@ -274,26 +284,49 @@ hr{
                       <div class ="details" >
                         <ul >
                           <li style="font-size:12.5px;">
-                            Aggregated security statistics with Selenium, saving 10 hrs/week
+                            Aggregated infrastructure security statistics of 500 servers into an Excel Spreadsheet with Selenium and Java saving 10 hrs/week
                           </li>
                           <li>
-                            Learnt several security concepts such as penetration testing
+                            Detected critical cyber-security flaws such as worms, malware, trojans
+                           using FireEye, ePo and IronPort.
                           </li>
                         </ul>
                           </div>
-
-                       <!-- <div class="techused">Tech: Java , Selenium , FireEye, IronPort
-                     </div> -->
                     </div>
                 </div>
-                <br>
+              </div>
+
+                <hr>
+                <div class="projects">
+
                 <div class="heading heading2">PROJECTS</div><hr>
 
-                <div class="row jsection">
+                <div class="row jsection three-line">
+                <div class="col-sm-3 col-xs-3" >
+                  <span class="company">Pebilepsy </span><br>
+                  <span class="position">Developer </span><br>
+                  <span class="date">Sept 2015 </span>
+                </div>
+                <div class="col-sm-9 col-xs-9 greybackground">
+                  <div class ="details" >
+                    <ul >
+                      <li >
+                        Won best pebble award at Hack the North by developing a nocturnal epilepsy tracker and prevention application.
+                      </li>
+                      <li>
+                        Featured On : <a href="https://news.ycombinator.com/item?id=8372583">Hacker News</a>, <a href="http://challengepost.com/software/pebilepsy"> Challenge Post</a> , <a href="http://www.medgadget.com/2014/09/pebilepsy-uses-fitness-tracker-to-monitor-night-time-seizures.html" > Med Gadgets </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                </div>
+                <br>
+
+                <div class="row jsection four-line">
                     <div class="col-sm-3 col-xs-3" >
                       <span class="company">Path Follower</span><br>
                       <span class="position">Embedded Developer </span><br>
-                      <span class="date">March 2015 </span>
+                      <span class="date">Oct 2015 </span>
                     </div>
                     <div class="col-sm-9 col-xs-9 greybackground">
                       <div class ="details" >
@@ -309,19 +342,22 @@ hr{
                       </div>
                     </div>
                   </div>
-                  <div class="row jsection" >
+                  <div class="row jsection four-line" >
                     <div class="col-sm-3 col-xs-3" >
                       <span class="company">Keil Projects</span><br>
                       <span class="position">Embedded Developer </span><br>
+                      <span class="date">Oct 2015 </span>
+
                     </div>
                     <div class="col-sm-9 col-xs-9 greybackground">
                       <div class ="details" >
                         <ul >
                           <li>
-                            Developed a program in C for a Keil microcontroller to allocate memory in O(1) time.
+                            Developed a C program for a Keil microcontroller to dynamically allocate memory in O(1) time.
                           </li>
                           <li>
-                              Implemented  quick sort using threads and processes.
+                              Implemented quick sort using a multi-threaded architecture which included
+                              priority tasks and semaphores.
                           </li>
                         </ul>
                       </div>
@@ -329,30 +365,12 @@ hr{
                   </div>
 
                    <!-- <h5><b>Hardware</b></h5><br> -->
-                    <div class="row jsection">
-                    <div class="col-sm-3 col-xs-3" >
-                      <span class="company">Pebilepsy </span><br>
-                      <span class="position">Developer </span><br>
-                      <span class="date">Sept 2014 </span>
-                    </div>
-                    <div class="col-sm-9 col-xs-9 greybackground">
-                      <div class ="details" >
-                        <ul >
-                          <li >
-                            Won best pebble award at Hack the North by developing a nocturnal epilepsy tracker and prevention application.
-                          </li>
-                          <li>
-                            Featured On : <a href="https://news.ycombinator.com/item?id=8372583">Hacker News</a>, <a href="http://challengepost.com/software/pebilepsy"> Challenge Post</a> , <a href="http://www.medgadget.com/2014/09/pebilepsy-uses-fitness-tracker-to-monitor-night-time-seizures.html" > Med Gadgets </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                    </div><br>
 
-                  <div class="row jsection" style="margin-top:-15px;">
+
+                  <div class="row jsection four-line" >
                     <div class="col-sm-3 col-xs-3" >
-                      <span class="company">Potentiometer</span><br>
-                      <span class="position"> Developer </span><br>
+                      <span class="company">Distance Sensor</span><br>
+                      <span class="position">Algorithms Developer </span><br>
                       <span class="date">March 2015 </span>
                     </div>
                     <div class="col-sm-9 col-xs-9 greybackground">
@@ -368,7 +386,7 @@ hr{
                       </div>
                     </div>
                   </div>
-                  <div class="row" style="margin-top:-15px;">
+                  <div class="row three-line">
                     <div class="col-sm-3 col-xs-3" >
                       <span class="company"><b>Crib</b></span><br>
                       <span class="position">Web Developer </span><br>
@@ -381,14 +399,14 @@ hr{
                              Built a chat app with a realtime poll for large groups of students to discuss housing options, implemented using Node.js and  Socket.io
                           </li>
                           <li>
-                              Built entirely in 24 hours as part of AngelHack Toronto 2015
+                              Developed entirely in 24 hours as part of AngelHack Toronto 2015
                           </li>
                         </ul>
                       </div>
                     </div>
                   </div>
 
-                  <div class="row " style="margin-top:10px">
+                  <div class="row three-line" >
                     <div class="col-sm-3 col-xs-3" >
                       <span class="company">Airless Tire</span><br>
                       <span class="position">Analyst </span><br>
@@ -397,7 +415,7 @@ hr{
                       <div class ="details" >
                         <ul >
                           <li>
-                             Used ANSYS to udnerstand blah blah physical systems
+                             Used Finite Element Analysis
                           </li>
                           <li>
                              Used Solidworks to design and 3D print an airless tire
@@ -406,7 +424,7 @@ hr{
                       </div>
                     </div>
                   </div>
-                  <div class="row jsection" style="margin-top:10px">
+                  <div class="row jsection three-line" style="margin-top:10px">
                     <div class="col-sm-3 col-xs-3" >
                       <span class="company">Noise Filtering</span><br>
                       <span class="position">Developer </span><br>
@@ -473,6 +491,7 @@ hr{
                             </li>
                         </ul>
                     </div> -->
+                  </div>
                 </div>
         </div>
         <!-- /.row -->
