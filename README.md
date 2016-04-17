@@ -13,6 +13,10 @@ See sample resume in resume.pdf
 The row on the left column include: Skills, Leadership, Competition and Education
 The row on the right column include: Work Experience and Projects.
 
+# Alternative Format
+
+https://github.com/Spurrya/resume2
+
 #Credits
 
 Abhijith Ramalingam and Spurrya Jaggi
