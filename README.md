@@ -1,5 +1,5 @@
 # Resume Template
-A two column asymetric resume template made using HTML,CSS and Bootstrap.
+A two column asymmetric resume template made using HTML,CSS and Bootstrap.
 ![alt tag](https://github.com/Spurrya/resume/blob/master/resume_preview.png)
 
 #Usage
